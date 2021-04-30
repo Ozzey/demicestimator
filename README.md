@@ -3,11 +3,11 @@
 ## Introduction
 <p>This package contains standalone code for computing data of any epidemic through various Epidemic Models (SIR, SEIR etc) . The data can be further used for studying, graphing, stimulating and predicting the spread of any epidemic.</p>
 
-<p> **SIR Model**
-A simple mathematical description of the spread of a disease in a population is the so-called SIR model, which divides the (fixed) population of N individuals into three "compartments" which may vary as a function of time.</p>
+**SIR Model**
+A simple mathematical description of the spread of a disease in a population is the so-called SIR model, which divides the (fixed) population of N individuals into three "compartments" which may vary as a function of time.
 
-<p> **SEIR Model**
-For many important infections, there is a significant incubation period during which individuals have been infected but are not yet infectious themselves. During this period the individual is in compartment E (for exposed). This is where SEIR model is used.</p>
+**SEIR Model**
+For many important infections, there is a significant incubation period during which individuals have been infected but are not yet infectious themselves. During this period the individual is in compartment E (for exposed). This is where SEIR model is used.
 
 ## For The Users
 The package can be installed via:

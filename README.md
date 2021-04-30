@@ -9,14 +9,14 @@ A simple mathematical description of the spread of a disease in a population is 
 <p>**SEIR Model:**
 For many important infections, there is a significant incubation period during which individuals have been infected but are not yet infectious themselves. During this period the individual is in compartment E (for exposed). This is where SEIR model is used.</p>
 
-##For The Users
+## For The Users
 The package can be installed via:
 ```bash
 pip install epidemic_estimator
 ```
 <p>The package can be used to call the functions of available Epidemic Models</p>
 
-##Example for SIR Model
+## Example for SIR Model
 ```python
 import epidemic_estimator as ee
 ee.sir_model(0.5,1/4,1000,0,1,160)
@@ -35,7 +35,7 @@ Parameters:
 
 >Probable Epidemic Data is computed from the code above which can be used to plot graph, create stimulation and so on.
 
-##Updates
+## Updates
 Further updates with support for other models like SEIR and SIS is coming soon.
 
 ## License

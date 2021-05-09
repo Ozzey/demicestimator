@@ -12,13 +12,13 @@ For many important infections, there is a significant incubation period during w
 ## For The Users
 The package can be installed via:
 ```bash
-pip install epidemic_estimator
+pip install demicestimator
 ```
 <p>The package can be used to call the functions of available Epidemic Models</p>
 
 ## Example for SIR Model
 ```python
-import epidemic_estimator as ee
+import demicestimator as ee
 ee.sir_model(0.5,1/4,1000,0,1,160)
 print(ee.sir_df)
 ```
